@@ -5,13 +5,14 @@
     android:orientation="horizontal"
     android:background="#FFFFFF"
     >
-    <ImageView 
+    <com.isuper.decision.view.DButton 
         android:id="@+id/bottom_decision"
         android:layout_width="80dip"
         android:layout_height="80dip"
         android:background="@drawable/bottom_decision_1"
         android:layout_marginLeft="15dip"
         android:layout_marginRight="10dip"
+        android:layout_gravity="bottom"
         />
     <RadioGroup 
         android:id="@+id/bottom_group"
